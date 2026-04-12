@@ -7,6 +7,5 @@ public class DemoLoader {
 //        Demo demo1 = new Demo();
 //        Demo demo2 = new Demo("sss");
         Demo.check();
-        AppletClassLoader
     }
 }
