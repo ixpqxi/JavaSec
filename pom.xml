@@ -16,6 +16,7 @@
         <module>cc4</module>
         <module>cc2</module>
         <module>rmi</module>
+        <module>fastjson</module>
     </modules>
 
     <properties>
