@@ -17,6 +17,7 @@
         <module>cc2</module>
         <module>rmi</module>
         <module>fastjson</module>
+        <module>jndi</module>
     </modules>
 
     <properties>

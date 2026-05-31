@@ -4,8 +4,10 @@ import com.alibaba.fastjson.parser.Feature;
 import com.alibaba.fastjson.serializer.SerializerFeature;
 import org.ixpqxi.util.Demo;
 
+import java.io.IOException;
+
 public class DemoSerialize {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Demo demo = new Demo();
         demo.setName("test demo");
         demo.setSize(78);

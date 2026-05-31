@@ -5,7 +5,7 @@ import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
 public class RemoteCli extends UnicastRemoteObject implements RemoteCmd {
-    protected RemoteCli() throws RemoteException {
+    public RemoteCli() throws RemoteException {
     }
 
     @Override
