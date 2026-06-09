@@ -18,6 +18,10 @@
         <module>rmi</module>
         <module>fastjson</module>
         <module>jndi</module>
+        <module>fastjson62</module>
+        <module>fastjson66</module>
+        <module>fastjson67</module>
+        <module>fastjson68</module>
     </modules>
 
     <properties>

